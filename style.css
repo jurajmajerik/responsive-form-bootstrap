@@ -1,0 +1,52 @@
+.form-outer {
+  padding: 20px 20px 20px 20px;
+  border: solid 1px grey;
+}
+
+.area-left {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.area-right {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.labels {
+  text-align: right;
+  border: solid 1px grey;
+}
+
+.inputs {
+  text-align: left;
+  border: solid 1px grey;
+}
+
+.full-width {
+  border: solid 1px grey;
+}
+
+@media (max-width: 767.99px) {
+  .row {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .area-left {
+    padding-left: 0px;
+  }
+
+  .area-right {
+    padding-right: 0px;
+  }
+
+  .labels {
+    text-align: left;
+    border: solid 1px grey;
+  }
+
+  .inputs {
+    text-align: left;
+    border: solid 1px grey;
+  }
+}
